@@ -1,0 +1,48 @@
+.ProductDisplay {
+    font-family: "Proxima Nova";
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto; 
+    border-collapse: separate;
+    border-spacing: 10px 10px;
+}
+
+.ProductDisplay img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.ProductDisplay th {
+    color: #1b4332;
+    font-size: 23px;
+    font: bold;
+}
+
+.productUnits {
+    width: 40%;
+    margin: auto;
+}
+
+.CartTotal {
+    text-align: end;
+    padding: 10px;
+    color: #1b4332;
+   
+}
+
+.CartTotalTitle {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.CartTotalPrice {
+    font-size: 1.1em;
+}
+
+/* .addToCart {
+    display: inline-block;
+    margin: 0px;
+} */
