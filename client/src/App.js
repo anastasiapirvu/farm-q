@@ -13,7 +13,7 @@ function App() {
 
     <div className="App">
    <div className="col-10 mb-3">
-   <img src={logo} alt="Company Logo"/>
+   <img src={logo} alt="Company Logo" height={100} width={140}/>
     <h1>Welcome to FarmQ</h1>
 
     

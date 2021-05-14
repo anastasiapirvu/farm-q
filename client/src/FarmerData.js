@@ -43,14 +43,14 @@ export default [
         longitude: 4.25, 
 
         products: [{
-            id: 1,
+            ids: 1,
             name: "Apples",
             price: 1.30,
             units: 15,
             url: 
             "https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
         },
-        {   id: 2,
+        {   ids: 2,
             name: "Blueberries",
             price: 4.70,
             units: 6,
@@ -69,21 +69,21 @@ export default [
         longitude: 4.45, 
 
         products: [{
-            id: 1,
+            ids: 1,
             name: "Green apples",
             price: 2.40,
             units: 12,
             url: 
             "https://images.unsplash.com/photo-1560951016-a733c05bc1cb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Z3JlZW4lMjBhcHBsZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
         },
-        {   id: 2,
+        {   ids: 2,
             name: "Pears",
             price: 3.70,
             units: 6,
             url: 
             "https://images.unsplash.com/photo-1612702651649-d8a97ae00cf1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHBlYXJzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
         },
-        {   id: 3,
+        {   ids: 3,
             name: "Peaches",
             price: 3.70,
             units: 6,
@@ -103,7 +103,7 @@ export default [
         longitude: 4.30, 
 
         products: [{
-            id: 1,
+            ids: 1,
             name: "Eggs",
             price: 3.60,
             units: 7,
@@ -122,14 +122,14 @@ export default [
         longitude: 4.23, 
 
         products: [{
-            id: 1,
+            ids: 1,
             name: "Young cheese",
             price: 4.30,
             units: 5,
             url: 
             "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1353&q=80"
         },
-        {   id: 2,
+        {   ids: 2,
             name: "Milk",
             price: 1.80,
             units: 8,
@@ -137,7 +137,7 @@ export default [
             "https://images.unsplash.com/photo-1576186726183-9bd8aa9fa6d9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fG1pbGt8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
         },
         
-        {   id: 3,
+        {   ids: 3,
             name: "Eggs",
             price: 3.20,
             units: 4,
@@ -158,7 +158,7 @@ export default [
         longitude: 4.32, 
 
         products: [{
-            id: 1,
+            ids: 1,
             name: "Milk",
             price: 1.80,
             units: 8,
@@ -166,7 +166,7 @@ export default [
             "https://images.unsplash.com/photo-1576186726183-9bd8aa9fa6d9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fG1pbGt8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
 
              },
-             {  id: 2,
+             {  ids: 2,
                 name: "Cheese",
                 price: 4.30,
                 units: 5,

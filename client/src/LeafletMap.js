@@ -17,14 +17,14 @@ function LeafletMap() {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-    
+
+
 
     function resetTotal() {
         alert("Thank you for supporting us");
 
     }
-
-
+    
     return (
 
         <>
@@ -34,6 +34,8 @@ function LeafletMap() {
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
+            // Check if the farmer data has prod property
+            // Sets prop state in product
 
                 {farmerData.map(frmr => { 
                     const myHandleShow = () => {
@@ -47,6 +49,7 @@ function LeafletMap() {
                     }
                     return (
                     <Marker
+
                         key={frmr.id}
                         position={[frmr.latitude, frmr.longitude]}>
 
