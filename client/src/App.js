@@ -12,8 +12,8 @@ function App() {
   return (
 
     <div className="App">
-   <div className="col-10 mb-3">
-   <img src={logo} alt="Company Logo" height={100} width={140}/>
+   <div className="col-11 mb-2">
+   <img className="Logo" src={logo} alt="Company Logo"/>
     <h1>Welcome to FarmQ</h1>
 
     
@@ -28,12 +28,14 @@ function App() {
   </div>
   </div>
 
-<footer className="col-10 mb-3">
-    <h3>Get in touch</h3>
-    <img src={facebook} alt="Facebook Logo" height={50} width={50} />
-    <img src={email} alt="Email Logo" height={50} width={50}/>
+<div className="Footer">
+<footer className="col-10 mb-2">
+    <h3>Contact us</h3>
+    <img src={facebook} alt="Facebook Logo"/>
+    <img src={email} alt="Email Logo"/>
     
 </footer>
+</div>
 
 </div>
   )

@@ -1,29 +1,35 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState } from "react";
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup,} from 'react-leaflet';
+import L from "leaflet";
 import { Button, Modal } from 'react-bootstrap';
 import ProductDisplay from "./ProductDisplay";
 import farmerData from "./FarmerData";
-
-
-
+import wheat from './images/wheat.png';
 
 
 function LeafletMap() {
 
     const [products, setProducts] = useState();
 
-
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
 
+   // Custom wheat icons 
+    let myIcon = new L.Icon ({
+        iconUrl: wheat,
+        iconSize: [50, 50],
 
+        });
+
+    // Checkout button   
     function resetTotal() {
         alert("Thank you for supporting us");
-
     }
+
+    
     
     return (
 
@@ -48,16 +54,19 @@ function LeafletMap() {
                         
                     }
                     return (
-                    <Marker
-
+                    <Marker    
+                        icon={myIcon}    
                         key={frmr.id}
-                        position={[frmr.latitude, frmr.longitude]}>
+                        position={[frmr.latitude, frmr.longitude]}
+                        >
+
+                            
 
                         <Popup className ="Popup" position={[frmr.latitude, frmr.longitude]}>
                             <div>
                                 <h4>{frmr.name}</h4>
-                                <p>{"Owner:" + " " + frmr.owner}</p>
-                                <p>{"Contact:" + " " + frmr.contact}</p>
+                                <p style={{ textAlign: "left", fontWeight: "bold" }}>{"Owner: " + " " + frmr.owner}</p>
+                                <p style={{ textAlign: "left"}}>{"Contact:" + " " + frmr.contact}</p>
 
 
                                 <Button variant="success" onClick={myHandleShow}>

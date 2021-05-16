@@ -1,16 +1,31 @@
 .App {
   background-color: #f9fdf9;
-  
+  margin: auto;
 }
+
 
 h1, h3, p{
   color: #1b4332;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
   margin: 2em 0 1em 0;
-  border-bottom: 1px solid #52b788;
-  padding: 10px;
+  border-bottom: 1px solid #91a099;
+  padding: 20px;
+} 
 
+h4 {
+  color: #1b4332;
+}
+
+p {
+  color: black
+}
+
+.Logo {
+  float: left;
+  height:100%;
+  width: 10%;
+  
 } 
 
 
@@ -21,17 +36,12 @@ h1, h3, p{
   margin-bottom: 10px;
 }
 
-
-/* .Footer {
+.Footer {
   text-align: center;
-  color: #0d3024;
-  font-family: "Courier New", Courier, monospace;
-  font-weight: bold;
-} */
+}
 
-
-
-/* display: grid;
-grid-template-columns: repeat(2, 1fr);
-grid-template-rows: 100%;
-grid-template-columns: 100%;  */
+.Footer img {
+  height: 50px;
+  width: 50px;
+  padding: 7px;
+}

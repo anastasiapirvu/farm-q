@@ -16,25 +16,25 @@ function ProductDisplay(props) {
     const addToCart = (matchingId) =>{
       
     // loop over each product
+    
      let answer = props.products.map(p => 
        // ternary operators - compare the ID passed with the product id
-       (p.ids === matchingId) ? (p.units >= 1) ? {...p, units: p.units -- } :p : p 
+       (p.ids === matchingId) ? (p.units >= 1) ? {...p, units: p.units -- } :p :p
      )
-      
    
       // Add initial value + new value
 
-      // Find object to keep track of the products
       let newTotal = total + answer[matchingId-1].price; 
-      
+
+
+      // Find object to keep track of the products
+
+    // Update total
       setTotal(newTotal);
+
       
-      
-     // update state with new value
+     // Update state with new value
       setData(answer);
-
-
-     
 
     }
 
