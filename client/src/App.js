@@ -29,7 +29,7 @@ function App() {
   </div>
 
 <div className="Footer">
-<footer className="col-10 mb-2">
+<footer className="col-11 mb-2">
     <h3>Contact us</h3>
     <img src={facebook} alt="Facebook Logo"/>
     <img src={email} alt="Email Logo"/>

@@ -23,8 +23,8 @@ function ProductDisplay(props) {
      )
    
       // Add initial value + new value
-
-      let newTotal = total + answer[matchingId-1].price; 
+      let newTotal = total + answer[matchingId-1].price;
+     
 
 
       // Find object to keep track of the products

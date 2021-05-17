@@ -1,5 +1,6 @@
 .App {
   background-color: #f9fdf9;
+  text-align: center;
   margin: auto;
 }
 
@@ -8,7 +9,7 @@ h1, h3, p{
   color: #1b4332;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
-  margin: 2em 0 1em 0;
+  margin: 0em 3em 2em 5em;
   border-bottom: 1px solid #91a099;
   padding: 20px;
 } 
@@ -23,9 +24,10 @@ p {
 
 .Logo {
   float: left;
-  height:100%;
-  width: 10%;
-  
+  margin: 0em 1em 1em 0em;
+  height: 100%;
+  width: 12%;
+  margin-top: 15px;
 } 
 
 
@@ -36,12 +38,10 @@ p {
   margin-bottom: 10px;
 }
 
-.Footer {
-  text-align: center;
-}
-
 .Footer img {
   height: 50px;
   width: 50px;
-  padding: 7px;
+  padding: 5px;
+  margin: 0em -2em 0em 2em;
 }
+

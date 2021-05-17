@@ -26,7 +26,7 @@ function LeafletMap() {
 
     // Checkout button   
     function resetTotal() {
-        alert("Thank you for supporting us");
+        alert("Thank you for shopping locally");
     }
 
     
@@ -34,7 +34,7 @@ function LeafletMap() {
     return (
 
         <>
-            <div className="col-sm col-md mb-3">
+            <div className="col-sm col-md mb-2">
             <MapContainer center={[50.830, 4.34]} zoom={11} scrollWheelZoom={true}>
                 <TileLayer
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
