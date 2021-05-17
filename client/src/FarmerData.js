@@ -20,7 +20,7 @@ export default [
             {
                 ids: 2,
                 name: "Eggs",
-                price: 4.30,
+                price: 3.60,
                 units: 7,
                 url: 
                 "https://images.unsplash.com/photo-1610725663140-99d8b910a5f1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGVnZ3N8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
@@ -166,7 +166,7 @@ export default [
         {
             ids: 3,
             name: "Eggs",
-            price: 4.30,
+            price: 3.60,
             units: 3,
             url: 
             "https://images.unsplash.com/photo-1610725663140-99d8b910a5f1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGVnZ3N8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
