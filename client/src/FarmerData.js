@@ -44,7 +44,7 @@ export default [
             {
                 ids: 5,
                 name: "Green apples",
-                price: 2.40,
+                price: 2.90,
                 units: 5,
                 url: 
                 "https://images.unsplash.com/photo-1606604830353-4da34f5a208a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Z3JlZW4lMjBhcHBsZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
@@ -63,7 +63,7 @@ export default [
         products: [{
             ids: 1,
             name: "Apples",
-            price: 1.30,
+            price: 2.50,
             units: 15,
             url: 
             "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YXBwbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
@@ -89,7 +89,7 @@ export default [
         products: [{
             ids: 1,
             name: "Green apples",
-            price: 2.40,
+            price: 2.90,
             units: 7,
             url: 
             "https://images.unsplash.com/photo-1606604830353-4da34f5a208a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Z3JlZW4lMjBhcHBsZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
