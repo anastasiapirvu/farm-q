@@ -1,17 +1,3 @@
-# Installing dependencies
-
-Leaflet Map
-![leaflet map printscreen](/my-mvp-project/leaflet_react.png)
-
-
-Bootstrap
-![bootstrap prinscreen](/my-mvp-project/bootstrap_react.png)
-
-
-Material UI (Avatar shaped photos)
-![material ui printscreen](/my-mvp-project/material_ui.png)
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
