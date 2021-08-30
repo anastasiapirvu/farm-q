@@ -28,8 +28,7 @@ function App() {
       <div className="Footer">
         <footer className="col-11 mb-2">
           <h3>Contact us</h3>
-          <img src={facebook} alt="Facebook Logo" />
-          <img src={email} alt="Email Logo" />
+          <p>Project built by Anastasia Pirvu as part of CodeOp's web development bootcamp.</p>
         </footer>
       </div>
     </div>
